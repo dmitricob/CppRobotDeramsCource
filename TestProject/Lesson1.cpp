@@ -1,17 +1,19 @@
 #include "Lesson1.h"
-
-void Lesson()
+namespace Lesson1
 {
-	std::cout << "“I love C++!\n" << "Enter triangle size\n";
-	int a;
-	std::cin >> a;
-
-	for (int i = 0; i <= a; i++)
+	void Lesson()
 	{
-		for (int j = 0; j <= i; j++)
+		std::cout << "“I love C++!\n" << "Enter triangle size\n";
+		int a;
+		std::cin >> a;
+
+		for (int i = 0; i <= a; i++)
 		{
-			std::cout << " *";
+			for (int j = 0; j <= i; j++)
+			{
+				std::cout << " *";
+			}
+			std::cout << std::endl;
 		}
-		std::cout << std::endl;
 	}
 }
