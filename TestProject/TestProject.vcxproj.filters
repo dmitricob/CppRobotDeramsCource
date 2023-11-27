@@ -36,6 +36,15 @@
     <ClCompile Include="Lesson7.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson8cpp.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8Recurtion.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8Regular.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestProject.h">
@@ -54,6 +63,15 @@
       <Filter>HomeWorks</Filter>
     </ClInclude>
     <ClInclude Include="Lesson7.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson8.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson8Recurtion.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson8Regular.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
   </ItemGroup>
