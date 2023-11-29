@@ -13,15 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="HomeWorks">
+      <UniqueIdentifier>{33f29dc5-4a67-4645-9410-c6ab161c4fb5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestProject.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson1.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestProject.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson1.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson2.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson3.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson4.h">
+      <Filter>HomeWorks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -139,9 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Lesson1.cpp" />
+    <ClCompile Include="Lesson2.cpp" />
+    <ClCompile Include="Lesson3.cpp" />
+    <ClCompile Include="Lesson4.cpp" />
     <ClCompile Include="TestProject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lesson4.h" />
+    <ClInclude Include="Lesson1.h" />
+    <ClInclude Include="Lesson2.h" />
+    <ClInclude Include="Lesson3.h" />
     <ClInclude Include="TestProject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
