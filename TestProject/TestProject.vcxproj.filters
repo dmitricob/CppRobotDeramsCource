@@ -33,6 +33,9 @@
     <ClCompile Include="Lesson4.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson7.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestProject.h">
@@ -48,6 +51,9 @@
       <Filter>HomeWorks</Filter>
     </ClInclude>
     <ClInclude Include="Lesson4.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson7.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
   </ItemGroup>

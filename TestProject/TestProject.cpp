@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <cctype>
 #include "Lesson4.h"
+#include "Lesson7.h"
 #include "TestProject.h"
 
 void Lesson6() 
@@ -147,5 +148,5 @@ void Lesson6()
 
 int main()
 {
-	Lesson4::Lesson();
+	Lesson7::Lesson();
 }

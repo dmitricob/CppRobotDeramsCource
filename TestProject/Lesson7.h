@@ -1,7 +1,8 @@
 #pragma once
+
 #include <iostream>
 
-namespace Lesson1
+namespace Lesson7 
 {
 	void Lesson();
 }
