@@ -1,8 +1,8 @@
 #include "TestProject.h"
-#include "Lesson7.h"
+#include "Lesson8.h"
 
 
 int main()
 {
-	Lesson7::Lesson();
+	Lesson8::Lesson();
 }
