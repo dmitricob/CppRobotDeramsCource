@@ -81,9 +81,19 @@ namespace Lesson11
 
 		int c = 0;for (int i = ROWS - 1; i >= 0; i--)
 		{
-			for (int j = 0; j < COLUMNS; j++)
+			if(i%2 == 0)
 			{
-				arr_2d[i][j] = ++c;
+				for (int j = COLUMNS - 1; j >= 0; j--)
+				{
+					arr_2d[i][j] = ++c;
+				}
+			}
+			else
+			{
+				for (int j = 0; j < COLUMNS; j++)
+				{
+					arr_2d[i][j] = ++c;
+				}
 			}
 		}
 	}
