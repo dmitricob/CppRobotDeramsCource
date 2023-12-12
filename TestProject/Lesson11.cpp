@@ -27,7 +27,7 @@ namespace Lesson11
 	{
 		for (int i = 0; i < ROWS; i++)
 		{
-			for (int j = 0; i < COLUMNS; i++)
+			for (int j = 0; j < COLUMNS; j++)
 			{
 				if (arr_2d[i][j] == toFind)
 					return true;
@@ -79,7 +79,8 @@ namespace Lesson11
 	void traverseLeftRightDownTopSwitchingByRows(int arr_2d[ROWS][COLUMNS])
 	{
 
-		int c = 0;for (int i = ROWS - 1; i >= 0; i--)
+		int c = 0;
+		for (int i = ROWS - 1; i >= 0; i--)
 		{
 			if(i%2 == 0)
 			{
