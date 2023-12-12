@@ -65,11 +65,12 @@ namespace Lesson11
 
 	void traverseTopDownRightLeftByColumns(int arr_2d[ROWS][COLUMNS])
 	{
+		int c = 0;
 		for (int j = COLUMNS - 1; j >= 0; j--)
 		{
-			for (int i = ROWS - 1; i >= 0 ; i--)
+			for (int i = 0; i < ROWS; i++)
 			{
-				arr_2d[i][j] = j * COLUMNS + i;
+				arr_2d[i][j] = ++c;
 			}
 		}
 	}
@@ -77,11 +78,12 @@ namespace Lesson11
 	//#3_2
 	void traverseLeftRightDownTopSwitchingByRows(int arr_2d[ROWS][COLUMNS])
 	{
-		for (int i = ROWS - 1; i >= 0; i--)
+
+		int c = 0;for (int i = ROWS - 1; i >= 0; i--)
 		{
 			for (int j = 0; j < COLUMNS; j++)
 			{
-				arr_2d[i][j] = j + i * ROWS;
+				arr_2d[i][j] = ++c;
 			}
 		}
 	}
