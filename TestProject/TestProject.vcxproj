@@ -146,6 +146,7 @@
     <ClCompile Include="Lesson4.cpp" />
     <ClCompile Include="Lesson6.cpp" />
     <ClCompile Include="Lesson7.cpp" />
+    <ClCompile Include="Lesson9.cpp" />
     <ClCompile Include="Lesson8cpp.cpp" />
     <ClCompile Include="Lesson8Recurtion.cpp" />
     <ClCompile Include="Lesson8Regular.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="Lesson3.h" />
     <ClInclude Include="Lesson6.h" />
     <ClInclude Include="Lesson7.h" />
+    <ClInclude Include="Lesson9.h" />
     <ClInclude Include="Lesson8.h" />
     <ClInclude Include="Lesson8Recurtion.h" />
     <ClInclude Include="Lesson8Regular.h" />
