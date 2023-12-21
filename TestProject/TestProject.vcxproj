@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="HomeWorks\Lesson1.cpp" />
     <ClCompile Include="HomeWorks\Lesson10.cpp" />
+    <ClCompile Include="HomeWorks\Lesson13.cpp" />
     <ClCompile Include="HomeWorks\Lesson2.cpp" />
     <ClCompile Include="HomeWorks\Lesson3.cpp" />
     <ClCompile Include="HomeWorks\Lesson4.cpp" />
@@ -150,14 +151,16 @@
     <ClCompile Include="HomeWorks\Lesson8Recurtion.cpp" />
     <ClCompile Include="HomeWorks\Lesson8Regular.cpp" />
     <ClCompile Include="HomeWorks\Lesson9.cpp" />
-    <ClCompile Include="Lesson13.cpp" />
     <ClCompile Include="TestProject.cpp" />
     <ClCompile Include="Utils\DateTimeExample.cpp" />
     <ClCompile Include="Utils\FilesIO.cpp" />
+    <ClCompile Include="Utils\Random.cpp" />
+    <ClCompile Include="Utils\ReadWrite.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HomeWorks\Lesson1.h" />
     <ClInclude Include="HomeWorks\Lesson10.h" />
+    <ClInclude Include="HomeWorks\Lesson13.h" />
     <ClInclude Include="HomeWorks\Lesson2.h" />
     <ClInclude Include="HomeWorks\Lesson3.h" />
     <ClInclude Include="HomeWorks\Lesson4.h" />
@@ -167,10 +170,11 @@
     <ClInclude Include="HomeWorks\Lesson8Recurtion.h" />
     <ClInclude Include="HomeWorks\Lesson8Regular.h" />
     <ClInclude Include="HomeWorks\Lesson9.h" />
-    <ClInclude Include="Lesson13.h" />
     <ClInclude Include="TestProject.h" />
     <ClInclude Include="Utils\DateTimeExample.h" />
     <ClInclude Include="Utils\FilesIO.h" />
+    <ClInclude Include="Utils\Random.h" />
+    <ClInclude Include="Utils\ReadWrite.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

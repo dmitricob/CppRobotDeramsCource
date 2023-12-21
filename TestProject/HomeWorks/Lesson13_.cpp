@@ -1,10 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS
-
-#include <iostream>
-
 #include "Lesson13.h"
+#include <iostream>
 #include "Utils/DateTimeExample.h"
-#include "Utils/FilesIO.h"
+#include "Utils/FilesIO.cpp"
 
 namespace Lesson13 
 {
@@ -26,7 +23,7 @@ namespace Lesson13
 			<< getMonth(now) << "-" <<
 			getYear(now) << std::endl;
 
-		readFile("readexample.txt");
-		writeFile("writeexample.txt");
+		readFile("readExample.txt");
+		writeFile("writeExample.txt");
 	}	
 }

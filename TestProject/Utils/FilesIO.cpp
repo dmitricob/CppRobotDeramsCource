@@ -2,59 +2,38 @@
 #include <fstream>
 #include "FilesIO.h"
 
-void readFile(const char* fileName)
+void readFile(const char* fileName, std::string fileOutput[], int wordsCount)
 {
     std::fstream file;
     file.open(fileName, std::ios::in);
 
 	if (!file)
 	{
-		std::cout << "File not found!\n";
+		std::cout << "File " << fileName <<" not found!\n";
 	}
 	else 
 	{
-		/*const unsigned int MaxLineSize = 256;
-		char line[MaxLineSize]{};
-
-		char ch = '\0';
-
-		file >> std::noskipws;
-		while (!file.eof())
+		for (int i = 0; i < wordsCount; i++)
 		{
-			file.getline(line, MaxLineSize, '\n');
-			std::cout << line;
-		}*/
-
-		while (!file.eof())
-		{
-			const char ch = file.get();
-			std::cout << ch;
+			file >> fileOutput[i];
 		}
 	}
 
 	file.close();
 }
 
-void writeFile(const char* fileName)
+void writeFile(const char* fileName, std::string text)
 {
     std::fstream file;
-    file.open(fileName, std::ios::out); //std::ios::trunc , std::ios::app
-
-	const char* LineToWrite = "Hey there";
-	const int intToWrite = 25;
-	const bool boolToWrite = true;
+    file.open(fileName, std::ios::out);
 
 	if (!file)
 	{
-		std::cout << "File not created!\n";
+		std::cout << "File "<< fileName <<" not created!\n";
 	}
 	else 
 	{
-		file << LineToWrite;
-		file << "\n";
-		file << intToWrite;
-		file << "\n";
-		file << boolToWrite;
+		file << text;
 	}
 
 	file.close();

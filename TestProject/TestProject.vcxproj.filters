@@ -17,16 +17,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lesson13.cpp">
-      <Filter>HomeWorks</Filter>
-    </ClCompile>
     <ClCompile Include="Utils\DateTimeExample.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
     <ClCompile Include="Utils\FilesIO.cpp">
-      <Filter>Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="TestProject.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
     <ClCompile Include="HomeWorks\Lesson3.cpp">
@@ -62,19 +56,23 @@
     <ClCompile Include="HomeWorks\Lesson2.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
+    <ClCompile Include="HomeWorks\Lesson13.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ReadWrite.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProject.cpp" />
+    <ClCompile Include="Utils\Random.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestProject.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson13.h">
-      <Filter>HomeWorks</Filter>
-    </ClInclude>
     <ClInclude Include="Utils\DateTimeExample.h">
       <Filter>Utils</Filter>
-    </ClInclude>
-    <ClInclude Include="Utils\FilesIO.h">
-      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="HomeWorks\Lesson3.h">
       <Filter>HomeWorks</Filter>
@@ -108,6 +106,18 @@
     </ClInclude>
     <ClInclude Include="HomeWorks\Lesson8.h">
       <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FilesIO.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeWorks\Lesson13.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ReadWrite.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Random.h">
+      <Filter>Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
