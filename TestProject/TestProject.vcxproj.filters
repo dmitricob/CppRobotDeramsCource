@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Исходные файлы">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Файлы заголовков">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -16,81 +12,112 @@
     <Filter Include="HomeWorks">
       <UniqueIdentifier>{33f29dc5-4a67-4645-9410-c6ab161c4fb5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{582009e9-c64a-4821-a04f-cfa63a3c7150}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestProject.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Utils\DateTimeExample.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson1.cpp">
+    <ClCompile Include="Utils\FilesIO.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWorks\Lesson3.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson2.cpp">
+    <ClCompile Include="HomeWorks\Lesson4.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson3.cpp">
+    <ClCompile Include="HomeWorks\Lesson6.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson4.cpp">
+    <ClCompile Include="HomeWorks\Lesson7.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson7.cpp">
+    <ClCompile Include="HomeWorks\Lesson8cpp.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson8cpp.cpp">
+    <ClCompile Include="HomeWorks\Lesson8Recurtion.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson8Recurtion.cpp">
+    <ClCompile Include="HomeWorks\Lesson8Regular.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson8Regular.cpp">
+    <ClCompile Include="HomeWorks\Lesson9.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson6.cpp">
+    <ClCompile Include="HomeWorks\Lesson10.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson10.cpp">
+    <ClCompile Include="HomeWorks\Lesson1.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson9.cpp">
+    <ClCompile Include="HomeWorks\Lesson2.cpp">
       <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWorks\Lesson13.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ReadWrite.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProject.cpp" />
+    <ClCompile Include="Utils\Random.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestProject.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson1.h">
+    <ClInclude Include="Utils\DateTimeExample.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeWorks\Lesson3.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson2.h">
+    <ClInclude Include="HomeWorks\Lesson4.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson3.h">
+    <ClInclude Include="HomeWorks\Lesson6.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson4.h">
+    <ClInclude Include="HomeWorks\Lesson7.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson7.h">
+    <ClInclude Include="HomeWorks\Lesson8Recurtion.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson8.h">
+    <ClInclude Include="HomeWorks\Lesson8Regular.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson8Recurtion.h">
+    <ClInclude Include="HomeWorks\Lesson9.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson8Regular.h">
+    <ClInclude Include="HomeWorks\Lesson10.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson6.h">
+    <ClInclude Include="HomeWorks\Lesson1.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson10.h">
+    <ClInclude Include="HomeWorks\Lesson2.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson9.h">
+    <ClInclude Include="HomeWorks\Lesson8.h">
       <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FilesIO.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeWorks\Lesson13.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ReadWrite.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Random.h">
+      <Filter>Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

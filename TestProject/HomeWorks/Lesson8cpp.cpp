@@ -1,4 +1,6 @@
 #include "Lesson8.h"
+#include "Lesson8Regular.h"
+#include "Lesson8Recurtion.h"
 
 namespace Lesson8 
 {
