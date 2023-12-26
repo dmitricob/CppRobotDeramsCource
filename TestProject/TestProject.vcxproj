@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Lesson1.cpp" />
     <ClCompile Include="Lesson10.cpp" />
+    <ClCompile Include="Lesson15.cpp" />
     <ClCompile Include="Lesson2.cpp" />
     <ClCompile Include="Lesson3.cpp" />
     <ClCompile Include="Lesson4.cpp" />
@@ -154,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lesson10.h" />
+    <ClInclude Include="Lesson15.h" />
     <ClInclude Include="Lesson4.h" />
     <ClInclude Include="Lesson1.h" />
     <ClInclude Include="Lesson2.h" />
