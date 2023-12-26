@@ -12,6 +12,8 @@ namespace Lesson12
 		ByColumns
 	};
 
+	void PassPointer(int* number);
+
 	void Lesson();
 	void bubbleSort(int arr[], int size);
 	int partition(int array[], int low, int high);

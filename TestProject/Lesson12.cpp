@@ -3,8 +3,20 @@
 
 namespace Lesson12
 {
+	void PassPointer(int* number) 
+	{
+		int value = 13;
+		number = &value;
+		*number = *number - 10;
+	}
+
 	void Lesson()
 	{
+
+		int* p;
+		p = new int;
+		*p = 100;
+
 		int arr[5] = { 2,3,6,4,0 };
 		bubbleSort(arr, 5);
 		
