@@ -12,22 +12,22 @@ namespace Lesson15
 		student.Avarage();
 
 		// #2
-		Student students[4] = {
+		Student students[StudentsCount] = {
 			{"name1", {0,1,2} },
 			{ "name2",{1,2,3} } ,
 			{ "name3",{4,5,8} } ,
 			{ "name4",{4,9,4} } };
 
 		// #3 
-		SortStudent(students, 4);
+		SortStudent(students, StudentsCount);
 
 		// #4 
-		Student* s = BestStudent(students);
+		Student* s = BestStudent(students, StudentsCount);
 		// testing of the pointer
 		//s->avarage = 0;
 
 		// #5
-		SuccessfulStudentsCount(students, 4, 3);
+		SuccessfulStudentsCount(students, StudentsCount, 3);
 	}	
 
 	int SuccessfulStudentsCount(Student students[], int size, int requiredPoint) 
@@ -41,9 +41,17 @@ namespace Lesson15
 		return acc;
 	}
 	//PS we think that students ALWAYS sorted, so we return student [0], otherwise we need to loop throw it
-	Student* BestStudent(Student students[])
+	Student* BestStudent(Student students[], int size)
 	{
-		return &students[0];
+		int bestStudentId = 0;
+		for (int i = 1; i < size; i++)
+		{
+			if (students[i].Avarage() > students[bestStudentId].Avarage())
+			{
+				bestStudentId = i;
+			}
+		}
+		return &students[bestStudentId];
 	}
 
 	void SortStudent(Student students[], int size) 
@@ -62,5 +70,18 @@ namespace Lesson15
 			students[i] = students[smallestId];
 			students[smallestId] = temp;
 		}
+	}
+	float Student::Avarage()
+	{
+		if (avarage > 0)
+			return avarage;
+
+		avarage = 0;
+		for (int i = 0; i < StudentsCount; i++)
+		{
+			avarage += marks[i];
+		}
+		avarage /= StudentsCount;
+		return avarage;
 	}
 }
