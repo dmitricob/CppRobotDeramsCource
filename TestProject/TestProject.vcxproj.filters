@@ -48,6 +48,9 @@
     <ClCompile Include="Lesson6.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson11.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
     <ClCompile Include="Lesson10.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
@@ -87,6 +90,9 @@
       <Filter>HomeWorks</Filter>
     </ClInclude>
     <ClInclude Include="Lesson6.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson11.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
     <ClInclude Include="Lesson10.h">
