@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1.cpp" />
+    <ClCompile Include="Lesson11.cpp" />
     <ClCompile Include="Lesson10.cpp" />
     <ClCompile Include="Lesson16.cpp" />
+    <ClCompile Include="Lesson12.cpp" />
     <ClCompile Include="Lesson2.cpp" />
     <ClCompile Include="Lesson3.cpp" />
     <ClCompile Include="Lesson4.cpp" />
@@ -158,8 +160,10 @@
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lesson11.h" />
     <ClInclude Include="Lesson10.h" />
     <ClInclude Include="Lesson16.h" />
+    <ClInclude Include="Lesson12.h" />
     <ClInclude Include="Lesson4.h" />
     <ClInclude Include="Lesson1.h" />
     <ClInclude Include="Lesson2.h" />

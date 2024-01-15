@@ -51,6 +51,9 @@
     <ClCompile Include="Lesson6.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson11.cpp">
+      <Filter>HomeWorks</Filter>
+    </ClCompile>
     <ClCompile Include="Lesson10.cpp">
       <Filter>HomeWorks</Filter>
     </ClCompile>
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="Weapon.cpp">
       <Filter>HomeWorks\HomeWork16</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson12.cpp">
+      <Filter>HomeWorks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +110,9 @@
     <ClInclude Include="Lesson6.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
+    <ClInclude Include="Lesson11.h">
+      <Filter>HomeWorks</Filter>
+    </ClInclude>
     <ClInclude Include="Lesson10.h">
       <Filter>HomeWorks</Filter>
     </ClInclude>
@@ -124,6 +133,9 @@
     </ClInclude>
     <ClInclude Include="Weapon.h">
       <Filter>HomeWorks\HomeWork16</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson12.h">
+      <Filter>HomeWorks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
