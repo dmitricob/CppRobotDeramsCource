@@ -142,6 +142,7 @@
     <ClCompile Include="Lesson1.cpp" />
     <ClCompile Include="Lesson11.cpp" />
     <ClCompile Include="Lesson10.cpp" />
+    <ClCompile Include="Lesson16.cpp" />
     <ClCompile Include="Lesson12.cpp" />
     <ClCompile Include="Lesson2.cpp" />
     <ClCompile Include="Lesson3.cpp" />
@@ -152,11 +153,16 @@
     <ClCompile Include="Lesson8cpp.cpp" />
     <ClCompile Include="Lesson8Recurtion.cpp" />
     <ClCompile Include="Lesson8Regular.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Team.cpp" />
     <ClCompile Include="TestProject.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lesson11.h" />
     <ClInclude Include="Lesson10.h" />
+    <ClInclude Include="Lesson16.h" />
     <ClInclude Include="Lesson12.h" />
     <ClInclude Include="Lesson4.h" />
     <ClInclude Include="Lesson1.h" />
@@ -168,7 +174,11 @@
     <ClInclude Include="Lesson8.h" />
     <ClInclude Include="Lesson8Recurtion.h" />
     <ClInclude Include="Lesson8Regular.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Team.h" />
     <ClInclude Include="TestProject.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

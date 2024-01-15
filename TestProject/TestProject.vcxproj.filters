@@ -16,6 +16,9 @@
     <Filter Include="HomeWorks">
       <UniqueIdentifier>{33f29dc5-4a67-4645-9410-c6ab161c4fb5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="HomeWorks\HomeWork16">
+      <UniqueIdentifier>{5defb6ed-3314-441e-8ab5-7a5eec493b55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestProject.cpp">
@@ -56,6 +59,21 @@
     </ClCompile>
     <ClCompile Include="Lesson9.cpp">
       <Filter>HomeWorks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson16.cpp">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>HomeWorks\HomeWork16</Filter>
     </ClCompile>
     <ClCompile Include="Lesson12.cpp">
       <Filter>HomeWorks</Filter>
@@ -100,6 +118,21 @@
     </ClInclude>
     <ClInclude Include="Lesson9.h">
       <Filter>HomeWorks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson16.h">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>HomeWorks\HomeWork16</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>HomeWorks\HomeWork16</Filter>
     </ClInclude>
     <ClInclude Include="Lesson12.h">
       <Filter>HomeWorks</Filter>
